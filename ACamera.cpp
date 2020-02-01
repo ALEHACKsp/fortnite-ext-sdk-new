@@ -37,7 +37,3 @@ float SDK::ACameraa::GetFova()
 	return ((float)fov / (zoom / 1.19f));
 
 }	
-bool SDK::ACameraa::WriteAnglesa(Vector3 angles)
-{
-	return this->WriteVirtualMemory(this->LocalPlayerPtr + 0x418, angles);
-}
